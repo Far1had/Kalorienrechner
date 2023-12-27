@@ -15,9 +15,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(rgb(2, 2, 114) , rgb(3, 88, 97) );
+  background: linear-gradient(rgb(2, 2, 114) 5% , rgb(3, 88, 97) 90% );
   color: white;
-  height: 100vh;
+  height: 120vh;
 }
 
 main {
@@ -108,6 +108,14 @@ p {
 
 .h33 {
   font-size: 0.8em;
+}
+
+.end, img{
+  display: flex;
+
+  align-items: center;
+
+  
 }
 
 
