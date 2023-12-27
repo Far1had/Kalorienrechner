@@ -15,8 +15,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: black;
+  background: linear-gradient(rgb(2, 2, 114) , rgb(3, 88, 97) );
   color: white;
+  height: 100vh;
 }
 
 main {
@@ -47,9 +48,9 @@ form {
   justify-content: center;
   gap: 2vh;
   width: 100%;
-  background-color: rgb(206, 227, 237);
+  background-color: rgb(27, 124, 169);
   border-radius: 18px;
-  border: 20px solid rgb(206, 227, 237);
+  border: 20px solid rgb(27, 124, 169);
   color: black;
 }
 
@@ -79,7 +80,7 @@ form {
   transition: background-color 0.3s;
 }
 .divdiv4:hover {
-  background-color: #159fe5;
+  background-color: #e80eda;
 }
 
 .divdiv5 {
