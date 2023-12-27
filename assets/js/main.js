@@ -66,7 +66,7 @@ document.getElementById('result-A').textContent = " Grundumsatz - kcal: " + grun
 document.getElementById('result-A').style.fontSize = "14px"; 
 
 // Gesamtumsatz
-document.getElementById('resultTot-B').textContent = " Gesamtumsatz - kcal:" + gesamtumsatz.toFixed(0);
+document.getElementById('resultTot-B').textContent = " Gesamtumsatz - kcal: " + gesamtumsatz.toFixed(0);
 document.getElementById('resultTot-B').style.fontSize = "14px";
 
 // Zusätzliches Element

@@ -12,16 +12,21 @@
 <body>
 
     <main>
+        <br>
         <h3>KALORIENRECHNER ➗</h3>
-
+        <br>
         <form onsubmit="checkData(); return false" class="divdiv3">
-
+            <div class="meinDaten">
+                <div>
+                    <h3>Mein Daten</h3>
+                </div>
+            </div>
             <div class="divdiv">
-                <span></span> 
+                <span></span>
                 <label for="frau">W </label>
                 <input type="radio" name="auswahl" id="frau" required>
-               
-               <span>🙅🏼‍♀️ - 🙅🏽‍♂️</span>
+
+                <span>🙅🏼‍♀️ - 🙅🏽‍♂️</span>
                 <input type="radio" name="auswahl" id="mann" required>
                 <label for="mann">M</label> <span></span>
             </div>
@@ -40,7 +45,7 @@
                 <input class="input-small" type="number" id="input-height" placeholder=" CM...." required>
                 <label for="input"> Grösse </label>
             </div>
-            
+
             <div class="divdiv2">
                 <span>🏄🏼‍♂️</span>
                 <select id="service" name="service" required>
@@ -59,13 +64,17 @@
 
             <div class="divdiv5">
                 <p><span>🤾🏽‍♂️ </span>... </p>
-                <input class="divdiv4" type="submit" value="    SUMME =    ">
+                <input class="divdiv4" type="submit" value="RECHNEN">
             </div>
-                
+
             <div class="divdiv3">
                 <h3 class="h33"> <span id="result-A"></span></h3>
                 <h3 class="h33"> <span id="resultTot-B"></span></h3>
+                <br>
                 <h3 class="h33"> <span id="resultTot-C"> </span></h3>
+            </div>
+            <div class="meinDaten">
+                <h3>= Kalorienlimit</h3>
             </div>
         </form>
         <p> design 2024 ⭐️ Farhad Amini </p>

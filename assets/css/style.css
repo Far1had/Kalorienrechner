@@ -1,90 +1,112 @@
 @font-face {
-    font-family: 'inter';
-    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+  font-family: 'inter';
+  src: url(../fonts/Inter/static/Inter-Regular.ttf);
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: inter;
-    font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inter;
+  font-size: 16px;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: black;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  color: white;
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h3{
-    align-items: center;
-    margin-bottom: 5%;
-    margin-top: 7%;
-    font-size: 0.9em;
+.meinDaten {
+  background-color: rgb(60, 97, 7);
+  color: aliceblue;
+  border-radius: 9px;
+  padding: 5px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h3 {
+  font-size: 0.9em;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 2vh;
-    width: 100%;
-    background-color: rgb(206, 227, 237);
-    border-radius: 50px;
-    border: 20px solid rgb(206, 227, 237);
-    color: black;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2vh;
+  width: 100%;
+  background-color: rgb(206, 227, 237);
+  border-radius: 18px;
+  border: 20px solid rgb(206, 227, 237);
+  color: black;
+}
 
-  .divdiv{
-    margin-top: 25px;
-    margin-bottom: 5px;
-  }
-  .divdiv2{
-    margin-top: 2px;
-    margin-bottom: 0px;
-  }
-  .divdiv3{
-    margin-top: 0px;
-    margin-bottom: 30px;
-    
-  }
-  .divdiv4{
-    display: flex;
-    align-items: flex-end;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    background-color: black;
-    color: aliceblue;
-  }
-  .divdiv5{
-    display: flex;
-  }
-  input {
-    border-radius: 30px;
-  }
-  .input-small {
-    width: 80px; 
-    height: 30px; 
 
-  }
-  select{
-    border-radius: 30px;
+.divdiv2 {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
 
-  }
-  p {
-    font-size: 0.6em;
-  }
-  .h33 {
-    font-size: 0.8em;
-  }
-  
+.divdiv3 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+
+}
+
+.divdiv4 {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.divdiv4:hover {
+  background-color: #159fe5;
+}
+
+.divdiv5 {
+  display: flex;
+}
+
+input {
+  border-radius: 9px;
+}
+
+.input-small {
+  width: 80px;
+  height: 30px;
+
+}
+
+select {
+  border-radius: 9px;
+
+}
+
+p {
+  font-size: 0.6em;
+}
+
+.h33 {
+  font-size: 0.8em;
+}
+
+
