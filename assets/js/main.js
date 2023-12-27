@@ -27,12 +27,6 @@ function checkData() {
     let groesse = parseInt(document.getElementById('input-height').value);
     let aktivitaetsLevel = document.getElementById('service').value;
 
-    // Überprüfe, ob alle Werte eingegeben wurden
-    if (isNaN(alter) || isNaN(gewicht) || isNaN(groesse) || aktivitaetsLevel === "") {
-        alert("Bitte fülle alle Felder aus.");
-        return;
-    }
-
     // Berechne den Grundumsatz nach der Harris-Benedict-Formel
     let grundumsatz;
     if (geschlecht === "weiblich") {
