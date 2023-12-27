@@ -31,7 +31,7 @@ form {
     align-items: flex-start;
     justify-content: center;
     gap: 2vh;
-    width: 85%;
+    width: 100%;
     background-color: rgb(206, 227, 237);
     border-radius: 50px;
     border: 20px solid rgb(206, 227, 237);
@@ -63,6 +63,11 @@ form {
   }
   input {
     border-radius: 50px;
+  }
+  .input-small {
+    width: 80px; 
+    height: 30px; 
+
   }
   select{
     border-radius: 50px;
