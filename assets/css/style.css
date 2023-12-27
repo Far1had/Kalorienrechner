@@ -70,7 +70,7 @@ form {
     display: flex;
   }
   input {
-    border-radius: 50px;
+    border-radius: 30px;
   }
   .input-small {
     width: 80px; 
@@ -78,7 +78,7 @@ form {
 
   }
   select{
-    border-radius: 50px;
+    border-radius: 30px;
 
   }
   p {
