@@ -15,9 +15,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(rgb(2, 2, 114) 5% , rgb(3, 88, 97) 90% );
+  background: linear-gradient(rgb(3, 88, 97) 3% , rgb(2, 2, 114) 90% );
   color: white;
-  height: 120vh;
+  height: 140vh;
+  background-repeat: no-repeat;
 }
 
 main {
