@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekte-Level-3_3</title>
+
+</head>
+
+<body>
+
+    <main>
+        <h1>🎈KALORIENRECHNER🎈</h1>
+        <form onsubmit="checkData(); return false">
+            <div class="divdiv">
+                <span>💃🏻</span>
+                <input type="radio" name="auswahl" id="frau" required>
+                <label for="frau">ich bin Weiblich</label>
+            </div>
+            <div class="divdiv2">
+                <span>🕺🏼</span>
+                <input type="radio" name="auswahl" id="mann" required>
+                <label for="mann">ich bin Männlich</label>
+            </div>
+            <div class="divdiv2">
+                <span>🔢 </span>
+                <input type="number" id="input-age" value="" required>
+                <label for="input"> Alter</label>
+            </div>
+            <div class="divdiv2">
+                <span>⚖️ </span>
+                <input type="number" id="input-width" value="" required>
+                <label for="input"> KG Gewischt</label>
+            </div>
+            <div class="divdiv2">
+                <span>📏 </span>
+                <input type="number" id="input-height" value="" required>
+                <label for="input"> CM Grösse</label>
+            </div>
+            <div class="divdiv2">
+                <span>🏄🏼‍♂️</span>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Aktivitätslevel</option>
+                    <option id="super" value="superServ">Nicht aktiv</option>
+                    <option id="gut" value="gutServ">Leicht aktiv</option>
+                    <option id="mittel" value="badServ">Mittel aktiv</option>
+                    <option id="sehr" value="gutServ">Sehr aktiv</option>
+                    <option id="superAktiv" value="badServ">Super aktiv</option>
+                </select>
+                <label for="service" required>Typ</label>
+            </div>
+            <br>
+            <div class="divdiv5">
+                <p><span>🤾🏽‍♂️  </span>...  </p>
+                <input class="divdiv4" type="submit" value="    AKTION    ">
+            </div>
+
+            <div class="divdiv3">
+                <h3>Grundumsatz (Ohne Aktivitäts): <span id="result-A"></span></h3>
+                <h3>Gesamtumsatz (inkl. Aktivität): <span id="resultTot-B"></span></h3>
+            </div>
+
+        </form>
+        <br>
+        <h1>🎈KALORIENRECHNER🎈</h1>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>
