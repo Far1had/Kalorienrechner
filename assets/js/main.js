@@ -61,6 +61,16 @@ function checkData() {
     let gesamtumsatz = grundumsatz * palFaktor;
 
     // Zeige die Ergebnisse im HTML an
-    document.getElementById('result-A').textContent = " Grundumsatz - kcal: " + grundumsatz.toFixed(0) ;
-    document.getElementById('resultTot-B').textContent = " Gesamtumsatz - kcal: " + gesamtumsatz.toFixed(0); 
+// Grundumsatz
+document.getElementById('result-A').textContent = " Grundumsatz - kcal: " + grundumsatz.toFixed(0);
+document.getElementById('result-A').style.fontSize = "14px"; 
+
+// Gesamtumsatz
+document.getElementById('resultTot-B').textContent = " Gesamtumsatz - kcal:" + gesamtumsatz.toFixed(0);
+document.getElementById('resultTot-B').style.fontSize = "14px";
+
+// Zusätzliches Element
+document.getElementById('resultTot-C').textContent = "🍇🍌🍓🍉🍟🥙🥗🍗🥓";
+document.getElementById('resultTot-C').style.fontSize = "16px"; 
+
 }
