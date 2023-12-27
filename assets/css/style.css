@@ -17,29 +17,13 @@ body {
     align-items: center;
     background: black;
     color: white;
-
 }
 
-h2{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+h3{
     align-items: center;
-    font-size: 1.5em;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
-
-h6 {
-display: flex;
-    align-items: center;
-}
-
-
-
-
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
 form {
     display: flex;
